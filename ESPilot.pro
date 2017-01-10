@@ -1,4 +1,4 @@
-update=16/12/2016 2:20:40 AM
+update=10/01/2017 2:37:26 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=lib
@@ -59,6 +57,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=lib/novirium.kicad_wks
