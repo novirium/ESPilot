@@ -534,23 +534,23 @@ $EndComp
 $Comp
 L JUMPER_OPT JP2
 U 1 1 585A6FA6
-P 5350 4900
-F 0 "JP2" H 5425 5000 60  0000 C CNN
-F 1 "JUMPER_OPT" H 5550 4800 40  0001 C CNN
-F 2 "ESPilot:Jumper_Opt-2mm-0.5mm_gap" H 5425 4900 60  0001 C CNN
-F 3 "" H 5425 4900 60  0000 C CNN
-	1    5350 4900
+P 6100 4900
+F 0 "JP2" H 6175 5000 60  0000 C CNN
+F 1 "JUMPER_OPT" H 6300 4800 40  0001 C CNN
+F 2 "ESPilot:Jumper_Opt-2mm-0.5mm_gap" H 6175 4900 60  0001 C CNN
+F 3 "" H 6175 4900 60  0000 C CNN
+	1    6100 4900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L JUMPER_OPT JP3
 U 1 1 585A6FAD
-P 5350 5100
-F 0 "JP3" H 5425 5200 60  0000 C CNN
-F 1 "JUMPER_OPT" H 5550 5000 40  0001 C CNN
-F 2 "ESPilot:Jumper_Opt-2mm-0.5mm_gap" H 5425 5100 60  0001 C CNN
-F 3 "" H 5425 5100 60  0000 C CNN
-	1    5350 5100
+P 6100 5100
+F 0 "JP3" H 6175 5200 60  0000 C CNN
+F 1 "JUMPER_OPT" H 6300 5000 40  0001 C CNN
+F 2 "ESPilot:Jumper_Opt-2mm-0.5mm_gap" H 6175 5100 60  0001 C CNN
+F 3 "" H 6175 5100 60  0000 C CNN
+	1    6100 5100
 	-1   0    0    -1  
 $EndComp
 Text HLabel 7450 4900 0    60   Input ~ 0
@@ -595,9 +595,9 @@ Text HLabel 7450 3950 0    60   Input ~ 0
 RC7
 Text HLabel 7450 4050 0    60   Input ~ 0
 RC8
-Text HLabel 5750 5400 0    60   Input ~ 0
+Text HLabel 6500 5400 0    60   Input ~ 0
 RTS/RCout
-Text HLabel 5750 5300 0    60   Output ~ 0
+Text HLabel 6500 5300 0    60   Output ~ 0
 CTS/RCin
 Text HLabel 7450 3650 0    60   Output ~ 0
 5V_SERVO
@@ -609,13 +609,13 @@ Text HLabel 7400 1850 0    60   Output ~ 0
 I_SENSE
 Text HLabel 7400 1950 0    60   Output ~ 0
 V_SENSE
-Text HLabel 5150 4900 0    60   Input ~ 0
+Text HLabel 5900 4900 0    60   Input ~ 0
 PiTX
-Text HLabel 5150 5100 0    60   Output ~ 0
+Text HLabel 5900 5100 0    60   Output ~ 0
 PiRX
-Text HLabel 5550 5100 2    60   Output ~ 0
+Text HLabel 6300 5100 2    60   Output ~ 0
 RX1
-Text HLabel 5550 4900 2    60   Input ~ 0
+Text HLabel 6300 4900 2    60   Input ~ 0
 TX1
 Text Notes 8400 2700 0    100  ~ 0
 Breakaway PWM adapter
@@ -681,17 +681,17 @@ Wire Wire Line
 	4150 5150 4250 5150
 Connection ~ 4150 5150
 Wire Wire Line
-	5350 5000 7600 5000
+	6100 5000 7600 5000
 Wire Wire Line
-	5350 5200 6950 5200
+	6100 5200 6950 5200
 Wire Wire Line
 	7600 5100 6950 5100
 Wire Wire Line
 	6950 5100 6950 5200
 Wire Wire Line
-	5750 5300 7150 5300
+	6500 5300 7150 5300
 Wire Wire Line
-	5750 5400 7400 5400
+	6500 5400 7400 5400
 Wire Wire Line
 	7900 2050 7800 2050
 Wire Wire Line
