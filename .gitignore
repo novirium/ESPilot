@@ -1,0 +1,14 @@
+# KiCad project ignore rules
+
+#Auto backup files
+*.bak
+
+#Intermediate generated files
+*.net
+
+#BOM files
+*.xml
+*.xlsx
+
+#Gerbers and other production files
+gerber/
